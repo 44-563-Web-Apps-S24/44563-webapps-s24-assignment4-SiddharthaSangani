@@ -12,9 +12,7 @@ td{text-align: left;}
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
-    color: blue;
-    
-    
+    color: blue;    
 }
 tr:nth-child(odd) {
     background-color:antiquewhite;
@@ -22,4 +20,7 @@ tr:nth-child(odd) {
 th, td {
     padding-top: 10px;
     padding-bottom: 20px;
+  }
+  .AWaiter:hover{
+    text-shadow: 1px 1px 5px yellowgreen;
   }
