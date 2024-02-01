@@ -7,6 +7,19 @@ h1{color: aqua;}
 .GROOMSMAN{color: blue;}
 .NASTASYATIMOFEYEVNA{color: blanchedalmond;}
 .APLOMBOV{color: chartreuse;}
-
-
-
+th{text-align: center;}
+td{text-align: left;}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: blue;
+    
+    
+}
+tr:nth-child(odd) {
+    background-color:antiquewhite;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
