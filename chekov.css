@@ -3,7 +3,7 @@ h1{color: aqua;}
 .direction{font-family: "Courier";font-size: x-small;}
 .direction:hover{color: black;background-color: aqua;}
 .ZMEYUKINA{color:aqua}
-.YATS{color: beige;}
+.YATS{color: beige;}                                                                                                                                                                                                                                    
 .GROOMSMAN{color: blue;}
 .NASTASYATIMOFEYEVNA{color: blanchedalmond;}
 .APLOMBOV{color: chartreuse;}
@@ -23,4 +23,23 @@ th, td {
   }
   .AWaiter:hover{
     text-shadow: 1px 1px 5px red;
+  }
+  ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  ul.navbar-horizontal li {
+    float:left;
+    color:#000;
+    background-color:aqua;
+  } 
+  ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+  }
+  ul.navbar-horizontal a:hover {  
+    background-color:bisque;
+    color:white;
   }
